@@ -1,0 +1,247 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/**=======================basic=========================**/
+
+body {
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    font-weight: 500;
+    background-color: #fff;
+    line-height: 1.7em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+section {
+    padding: 80px 0;
+}
+
+.btn {
+    text-decoration: none;
+    width: 60px;
+    height: auto;
+    background: #d1af83;
+    color: #fff;
+    letter-spacing: 6px;
+    padding: 14px 19px;
+    transition: .7s all;
+
+    /*! margin-top: 38px; */
+}
+
+
+.btn:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    letter-spacing: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1080px;
+}
+
+/**.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}**/
+
+/**=======================basic=========================**/
+
+
+
+
+/**=======================mick=========================**/
+.mick {
+
+    background-image: linear-gradient(rgba(248, 239, 239, 0.80), rgba(248, 239, 239, 0.80)), url('../img/hero_bg2.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 796.6px;
+    text-align: center;
+}
+
+.mick h1 {
+    font-family: 'Comfortaa', display;
+    font-size: 96px;
+    color: #444235 !important;
+    line-height: 1.3em;
+    padding-bottom: 10px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 169px;
+}
+
+.mick h4 {
+    font-size: 20px;
+    color: #444235 !important;
+    letter-spacing: 8px;
+    line-height: 2em;
+    text-transform: uppercase;
+
+    margin-bottom: 43px;
+}
+
+
+
+
+/**=======================mick=========================**/
+
+/**=======================our-story===================**/
+.our-story {}
+
+.part-1 {}
+
+.col-1 h2 {
+    font-family: 'Comfortaa', display;
+    font-size: 60px;
+    color: #444235 !important;
+    line-height: 1.3em;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.col-1 .color-1 {
+    color: #d7984e;
+    font-size: 21px;
+    line-height: 1.7;
+    font-weight: 500;
+    width: 378px;
+}
+
+.col-1 p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #b59e9e;
+}
+
+.part-2 {}
+
+.part-2 .col-2 {
+    width: 50%;
+    margin: auto;
+    float: left;
+}
+
+
+.part-1 .col-1 {
+    width: 50%;
+    float: left;
+    margin: auto;
+}
+
+.image {
+    width: 80%;
+    max-width: 1080px;
+    height: auto;
+
+    margin-top: 133px;
+}
+
+.part-2 {
+    margin-top: 70px;
+}
+
+.text h3 {
+    font-family: 'Comfortaa', display;
+    font-size: 30px;
+    color: #444235 !important;
+    line-height: 2em;
+    padding-bottom: 20px;
+}
+
+.text p {
+
+    font-size: 20px;
+    line-height: 1.7;
+    color: #997070;
+
+
+}
+
+/**=======================our-story=========================**/
+@media (max-width:982px) {
+
+    .part-1 .col-1 {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+
+    .col-1 .color-1 {
+        width: auto;
+        font-size: 26px;
+        padding-bottom: 22px;
+    }
+
+    .col-1 p {
+        font-size: 21px;
+
+    }
+
+    .part-2 .col-2 {
+        width: 100%;
+        margin: auto;
+        float: none;
+        padding: 0px 49px;
+    }
+
+}
+
+@media (max-width:981px) {
+    .image {
+        width: 50%;
+        max-width: 1027px;
+        height: auto;
+        float: left;
+    }
+
+    .part-2 .col-2 {
+        width: 100%;
+        margin: auto;
+        float: left;
+
+    }
+
+    .text {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:939px) {
+    .image {
+        width: 0%;
+        max-width: 0px;
+        height: auto;
+        float: none;
+
+    }
+}
+
+@media (max-width:480px) {
+    .image {
+        width: 0%;
+        max-width: 0px;
+        height: auto;
+        float: none;
+        margin-top: 40px;
+
+    }
+
+    .part-2 {
+        margin-top: 19px;
+        margin-left: -66px;
+    }
+}
